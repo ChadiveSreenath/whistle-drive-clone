@@ -1,0 +1,92 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+.footer-main {
+  display: flex;
+  width: 80%;
+  padding-top: 5rem;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.brand-container {
+  flex: 1.5;
+}
+.footer-content {
+  color: #a1a1a1;
+  padding: 1rem;
+  font-size: 3rem;
+}
+.footer-award {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 12px;
+}
+.content-main {
+  font-size: 14px;
+  font-weight: 600;
+}
+.service-container {
+  flex: 1;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.footer-services {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.footer-services p {
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+}
+.office-container {
+  flex: 1;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.office-container div p {
+  font-size: 13px;
+  color: #a1a1a1;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.office-container div span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.news-container {
+  flex: 1;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.newsletter-ad {
+  font-weight: 600;
+  width: max-content;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+.policy-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 12px;
+  margin-top: 16px;
+  color: #a1a1a1;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
