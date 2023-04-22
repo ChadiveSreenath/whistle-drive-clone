@@ -7,7 +7,7 @@ import SinglePlatform from './Components/SinglePlatform'
 import ThriveSection from './Components/ThriveSection'
 import ServiceDelivery from './Components/ServiceDelivery'
 import ElectricMobility from './Components/ElectricMobility'
-import ContactUs from './Components/Contact'
+import HomepageContact from './Components/Contact'
 
 const HomePage = () => {
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
       <ThriveSection />
       <ServiceDelivery />
       <ElectricMobility />
-      <ContactUs />
+      <HomepageContact />
     </div>
   )
 }

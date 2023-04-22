@@ -23,6 +23,7 @@
 .ul-list li {
   list-style: none;
   margin-top: 12px;
+  font-size: 1.25rem !important;
 }
 li span {
   margin-right: 20px;
@@ -33,9 +34,12 @@ li span {
   font-weight: 600;
 }
 .os-text {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #303030;
   /* font-weight: 600; */
+}
+.helper-text-whistle {
+  font-size: 1.25rem;
 }
 .whistle-helps {
   display: flex;
@@ -46,7 +50,6 @@ li span {
   .data-content-center {
     flex-direction: column-reverse;
   }
-  
 }
 @media only screen and (max-width: 540px) {
   .data-driven-text {
@@ -60,7 +63,13 @@ li span {
     color: #063767;
     font-weight: 600;
   }
-  .data-content-center{
+  .data-content-center {
     width: 90%;
+  }
+  .ul-list li {
+    font-size: 0.75rem !important;
+  }
+  .helper-text-whistle {
+    font-size: 14px;
   }
 }

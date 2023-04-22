@@ -5,16 +5,21 @@ import TUV from "../../Assets/Images/TUV.png"
 import { FaFacebookF } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { GrLinkedinOption } from "react-icons/gr"
+import { useNavigate } from 'react-router-dom'
 
 
 
 const Footer = () => {
+  const history = useNavigate()
   return (
     <div className='footer-container'>
       <footer className='footer-main'>
         <div className='brand-container'>
           <div>
-            <img src={wdLogo} alt="Company Logo" height='43px' width='180px' style={{ cursor: 'pointer' }} />
+            <img src={wdLogo} alt="Company Logo" height='43px' width='180px' style={{ cursor: 'pointer' }} onClick={() => {
+              history('./')
+              window.scrollTo(0, 0);
+            }} />
           </div>
           <h1 className='footer-content'>
             Full Stack Urban Logistics Platform
@@ -29,7 +34,15 @@ const Footer = () => {
             <span className='content-main'>Services</span>
             <p>Enterprise Logistics</p>
             <p>Employee Transportation</p>
-            <p>WhistleOS for Mobility</p>
+            <p
+              style={{ cursor: 'pointer' }}
+              onClick={() => {
+                history('./mobilityos')
+                window.scrollTo(0, 0);
+              }}
+            >
+              WhistleOS for Mobility
+            </p>
             <p>WhistleOS for Logistics</p>
             <p>Whistle Electric</p>
           </div>

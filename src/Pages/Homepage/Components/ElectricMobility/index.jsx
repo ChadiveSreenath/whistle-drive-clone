@@ -2,11 +2,16 @@ import React from 'react'
 import "./index.css"
 import VehicleCharge from "../../../../Assets/Images/parkingImage.png"
 import { Button } from '@mui/material'
+import { useNavigate } from 'react-router-dom'
 
 
 
 
 const ElectricMobility = () => {
+
+    const history = useNavigate()
+
+
     return (
         <div className='electric-driven-container'>
             <div className="service-content-center">
@@ -31,6 +36,10 @@ const ElectricMobility = () => {
                         disableElevation
                         style={{
                             width: "12rem", height: '3rem', backgroundColor: '#0096d5', color: 'white', marginTop: '2rem'
+                        }}
+                        onClick={() => {
+                            history('./mobilityos')
+                            window.scrollTo(0, 0);
                         }}
                     >
                         Whistle Electric

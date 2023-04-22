@@ -18,7 +18,7 @@ const DataDriven = () => {
                         WhistleOS is our AI-powered platform developed with the core aim of facilitating predictability & visibility in operations.
                     </div>
                     <div className="whistle-helps">
-                        <span >
+                        <span className='helper-text-whistle'>
                             WhistleOS helps with,
                         </span>
                         <ul className='ul-list'>

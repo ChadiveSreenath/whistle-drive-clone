@@ -7,12 +7,15 @@ import delivery from "../../../../Assets/Images/novartis-logo-transparent copy.p
 import ADP from "../../../../Assets/Images/ADP.png"
 import { Button } from '@mui/material'
 import TrafficVideo from "../../../../Assets/Videos/HomePageMovinggif.mp4"
+import { useNavigate } from 'react-router-dom'
 
 
 
 
 
 const TopPlatfrom = () => {
+
+    const history = useNavigate()
 
     return (
         <div className='top-platform'>
@@ -26,7 +29,12 @@ const TopPlatfrom = () => {
                         disableElevation
                         style={{
                             width: "180px", height: '50px', backgroundColor: '#0096d5', fontSize: '1rem'
-                        }}>Contact Us</Button>
+                        }}
+                        onClick={() => {
+                            history('./contactus')
+                            window.scrollTo(0, 0);
+                        }}
+                    >Contact Us</Button>
                 </div>
                 <div className="video-platform">
                     <video autoPlay loop muted src={TrafficVideo} width='100%' height='100%' />

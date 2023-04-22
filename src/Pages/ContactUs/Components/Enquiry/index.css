@@ -1,0 +1,58 @@
+.enquiry-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.office-main-container {
+  width: 70%;
+  display: flex;
+}
+.office-adress-container {
+  flex: 1;
+  padding: 8rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.office-adress-container span {
+  font-size: 1.25rem;
+  color: #111111;
+  font-weight: 600;
+  padding: 0 2rem;
+}
+.office-adress-container p {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #063767;
+  padding: 0 2rem;
+}
+.office-map {
+  padding: 5rem 0;
+  flex: 1;
+}
+@media only screen and (max-width: 1200px) {
+  .office-main-container {
+    width: 90%;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .office-main-container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .office-adress-container {
+    gap: 1rem;
+    padding: 0rem;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .office-adress-container p {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  }
+  .office-adress-container span {
+    font-size: 14px;
+  }
+}

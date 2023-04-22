@@ -3,6 +3,7 @@ import './index.css'
 import wdLogo from "../../Assets/Images/WhistleDriveLogo.png"
 import { Button } from '@mui/material'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -11,12 +12,16 @@ const Navbar = () => {
     setState(prev => !prev)
   }
 
+  const history = useNavigate()
 
   return (
     <div className='navbar-main'>
       <div className='nav-container'>
         <div>
-          <img src={wdLogo} alt="Company Logo" height='43px' width='180px' style={{ cursor: 'pointer' }} />
+          <img src={wdLogo} alt="Company Logo" height='43px' width='180px' style={{ cursor: 'pointer' }} onClick={() => {
+            history('./')
+            window.scrollTo(0, 0);
+          }} />
         </div>
         <div className='nav-content'>
           <p>Enterprise Logistics</p>
@@ -27,8 +32,15 @@ const Navbar = () => {
             variant="contained"
             disableElevation
             style={{
-              width: "180px", height: '40px',
-            }}>Contact Us</Button>
+              width: "180px", height: '40px', backgroundColor: '#0096d5', marginTop: '10px'
+            }}
+            onClick={() => {
+              history('./contactus')
+              window.scrollTo(0, 0);
+            }}
+          >
+            Contact Us
+          </Button>
         </div>
 
         <div className='toogle-navbar'>
@@ -54,7 +66,7 @@ const Navbar = () => {
             }}>Contact Us</Button>
         </div>
       }
-    </div>
+    </div >
   )
 }
 
