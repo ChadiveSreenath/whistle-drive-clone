@@ -1,0 +1,39 @@
+.thrive-section-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.thrive-tech {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.thrive-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.thrive-info {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size:1.5rem;
+}
+.thrive-info div {
+  text-align: center;
+}
+.thrive-info div h6 {
+  margin-top: 5px;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 600px){
+    .thrive-info {
+        font-size:1rem;
+      }
+      .thrive-text {
+        font-size: 14px;
+        font-weight: lighter;
+      }
+}

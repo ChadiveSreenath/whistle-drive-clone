@@ -24,7 +24,7 @@
   width: 160px;
   height: 170px;
 }
-.logistics-text {
+.logistics-text-data {
   color: #063767;
   font-size: 1.25rem;
   font-weight: 600;
@@ -62,5 +62,8 @@
   }
   .mobility-text div span {
     font-size: 10px !important;
+  }
+  .tech-mobility{
+    width: 90%;
   }
 }

@@ -19,7 +19,7 @@ const TechMobility = () => {
                         <img src={EnterPrise} alt=""  className='logistics-image' />
                     </div>
                     <div className='mobility-text'>
-                        <span className='logistics-text'>Enterprise Logistics</span>
+                        <span className='logistics-text-data'>Enterprise Logistics</span>
                         <p>Enabling businesses across industries with full-stack intracity logistics solutions like transportation, micro-warehousing and last-mile deliveries.</p>
                         <div style={{ color: '#0096d5', fontWeight: '600',  cursor: 'pointer',fontSize:'1rem' }}>
                             <span >Know More </span>
@@ -34,7 +34,7 @@ const TechMobility = () => {
                         <img src={employee} alt="" className='logistics-image' />
                     </div>
                     <div className='mobility-text'>
-                        <span className='logistics-text'>
+                        <span className='logistics-text-data'>
                             Employee Transportation
                         </span>
                         <p>An End-to-End Employee Transportation Solution, a unique fleet + technology service model and Executive Car Rental services for Corporates.</p>

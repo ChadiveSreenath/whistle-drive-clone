@@ -1,0 +1,46 @@
+.electric-driven-container {
+  width: 100%;
+  padding: 2.5rem 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+.electric-mobility-main {
+  flex: 1;
+  padding: 2.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.vehicle-electric-container {
+  flex: 1;
+}
+.electric-text-heading {
+  color: #063767;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.electric-text-para {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #111111;
+}
+.electric-mobility-main span {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #111111;
+}
+@media only screen and (max-width: 700px){
+  .electric-mobility-main {
+    width: 90% !important;
+    padding: 2rem 0;
+  }
+  .electric-text-para {
+    font-size: .75rem;
+  }
+  .electric-text-heading {
+    font-size: 1rem;
+  }
+  .electric-mobility-main span {
+    font-size: .75rem;
+  }
+}

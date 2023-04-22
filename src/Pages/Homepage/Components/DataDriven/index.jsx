@@ -21,7 +21,7 @@ const DataDriven = () => {
                         <span >
                             WhistleOS helps with,
                         </span>
-                        <ul>
+                        <ul className='ul-list'>
                             <li>
                                 <span>
                                     <BsCheck style={{

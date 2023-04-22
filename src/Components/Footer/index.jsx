@@ -44,7 +44,7 @@ const Footer = () => {
         <div className='office-container'>
           <span className='content-main'>Office</span>
           <div>
-            <span style={{ fontSize: '14px', fontWeight: '600' }} >Address</span>
+            <span >Address</span>
             <p>4A, 4TH Floor, Trendz Jr, Plot no 23 & 24, Gafoor Nagar Madhapur, Hyderabad, Madhapur, Telangana 500081</p>
           </div>
           <div>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
       </footer>
       <section className='copyright' style={{ backgroundColor: '#f8f9fa' }}>
-        <div style={{ width: '10%', margin: 'auto', }}>
+        <div style={{ width: '10%', margin: 'auto', marginTop: '1rem' }}>
           <hr />
         </div>
         <div className='policy-section'>

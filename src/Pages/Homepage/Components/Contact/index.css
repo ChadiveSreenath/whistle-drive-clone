@@ -1,0 +1,69 @@
+.contact-us-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 0 0;
+}
+.contact-us-png {
+  width: 80%;
+}
+.logistics-commute {
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  align-items: center;
+}
+.commute-heading {
+  width: 75%;
+  text-align: center;
+  font-size: 3rem;
+  color: #063767;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1260px) {
+  .logistics-commute {
+    margin-top: 7rem;
+    padding: 1rem !important;
+  }
+  .commute-heading {
+    width: 80%;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 0 !important;
+    color: #063767;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .logistics-commute {
+    margin-top: 10rem;
+    padding: 1rem !important;
+  }
+  .commute-heading {
+    font-size: 1.25rem !important;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .logistics-commute {
+    margin-top: 10rem;
+    padding: 1rem !important;
+  }
+  .commute-heading {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .commute-heading {
+    font-size: 0.75rem !important;
+  }
+  .logistics-commute {
+    padding: 0rem !important;
+  }
+}

@@ -49,9 +49,10 @@
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 850px) {
   .main-platform {
     flex-direction: column;
+    width: 85%;
   }
   .logistics-text {
     font-size: 14px;
@@ -64,5 +65,10 @@
     padding: 1rem;
     font-size: 0.75rem;
     font-weight: 500;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-platform{
+    width: 90%;
   }
 }
