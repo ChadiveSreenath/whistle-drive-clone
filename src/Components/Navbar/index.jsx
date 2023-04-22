@@ -27,7 +27,7 @@ const Navbar = () => {
             variant="contained"
             disableElevation
             style={{
-              width: "160px", height: '40px',
+              width: "180px", height: '40px',
             }}>Contact Us</Button>
         </div>
 

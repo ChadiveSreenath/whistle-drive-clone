@@ -1,0 +1,68 @@
+.top-platform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-platform {
+  width: 80%;
+  display: flex;
+}
+.text-platform {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.video-platform {
+  flex: 1;
+  padding: 1rem;
+}
+.animated-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.urban-platform {
+  font-size: 3.25rem;
+  font-weight: 600;
+  color: #063767;
+}
+.logistics-text {
+  text-align: start;
+  width: 85%;
+}
+.trusted-companies {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.trusted-companies-text {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.companies-images {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 780px) {
+  .main-platform {
+    flex-direction: column;
+  }
+  .logistics-text {
+    font-size: 14px;
+  }
+  .companies-images {
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .trusted-companies-text {
+    padding: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
