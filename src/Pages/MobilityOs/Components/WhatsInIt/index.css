@@ -55,7 +55,7 @@
     place-items: flex-start;
   }
   .whistle-tech-text li {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
   }
   .tech-type-name {
@@ -78,7 +78,7 @@
     padding: 0.75rem 2rem;
   }
   .whistle-tech-text li {
-    font-size: 1rem;
+    font-size: 14px;
   }
   .whistle-tech-text {
     /* padding: 0 2rem; */
@@ -89,7 +89,7 @@
     text-align: center;
   }
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 590px) {
   .inside-container-class {
     width: 100%;
   }

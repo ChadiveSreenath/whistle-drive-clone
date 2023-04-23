@@ -14,7 +14,7 @@
   width: 80%;
   padding: 1.5rem 0rem;
   justify-content: space-between;
-  gap: 8rem;
+  gap: 6rem;
 }
 .nav-content {
   display: flex;
@@ -23,7 +23,7 @@
 .nav-content p {
   font-weight: 600;
   color: #333333;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-top: 0.75rem;
   cursor: pointer;
 }
@@ -50,7 +50,7 @@
   padding: 1.5rem;
   color: #333333;
   background-color: #f8f9fa;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-top: 10px;
   border-top: 0.25rem solid rgb(0, 150, 213);
 }
