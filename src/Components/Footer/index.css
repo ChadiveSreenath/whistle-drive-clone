@@ -10,7 +10,6 @@
   width: 80%;
   padding-top: 2rem;
   margin: auto;
-  flex-wrap: wrap;
   margin-top: 3rem;
 }
 .brand-container {
@@ -44,9 +43,9 @@
   gap: 0.75rem;
 }
 .footer-services p {
-  font-size: 14px;
+  font-size: 18px;
   color: #111111;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .office-container {
   flex: 1;
@@ -56,10 +55,10 @@
   gap: 1.5rem;
 }
 .office-container div p {
-  font-size: 13px;
+  font-size: 14px;
   width: 75%;
   color: #a1a1a1;
-  font-weight: bold;
+  font-weight: 600;
   margin-top: 10px;
 }
 .office-container div span {
@@ -80,8 +79,9 @@
 .social-media {
   display: flex;
   justify-content: space-between;
+  width: 70%;
 }
-.copyright{
+.copyright {
   margin-top: 3rem;
 }
 .policy-section {
@@ -93,4 +93,78 @@
   color: #a1a1a1;
   padding: 2rem;
   flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+  .footer-container {
+    margin-top: 7rem;
+  }
+  .footer-content {
+    font-size: 2rem;
+  }
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+  .service-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .policy-section {
+    margin-top: 1px;
+    font-size: 10px;
+  }
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-services p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer-container {
+    margin-top: 6rem;
+  }
+  .footer-services p {
+    font-size: 18px;
+  }
+  .footer-content {
+    font-size: 2.5rem;
+  }
+  .footer-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    width: 90%;
+    place-items: center;
+    margin-top: 6rem;
+  }
+  .policy-section {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .footer-content {
+    font-size: 2.25rem;
+  }
+  .footer-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    width: 90%;
+    place-items: center;
+    margin-top: 6rem;
+  }
+  .footer-services p {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+  .footer-content {
+    font-size: 2rem;
+  }
+  .footer-main {
+    width: 90%;
+  }
 }

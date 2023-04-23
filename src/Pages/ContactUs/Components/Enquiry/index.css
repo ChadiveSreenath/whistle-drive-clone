@@ -43,16 +43,25 @@
     flex-direction: column;
   }
   .office-adress-container {
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 0rem;
+  }
+  .office-adress-container p {
+    font-size: 3rem;
+  }
+  .office-adress-container span {
+    font-size: 1.65rem;
+    font-weight: 500;
+
   }
 }
 @media only screen and (max-width: 468px) {
   .office-adress-container p {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     padding: 0 2rem;
   }
   .office-adress-container span {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 500;
   }
 }

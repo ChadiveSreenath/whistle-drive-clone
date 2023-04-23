@@ -36,7 +36,7 @@ li span {
 .os-text {
   font-size: 1.25rem;
   color: #303030;
-  /* font-weight: 600; */
+  font-weight: 600;
 }
 .helper-text-whistle {
   font-size: 1.25rem;
@@ -67,9 +67,12 @@ li span {
     width: 90%;
   }
   .ul-list li {
-    font-size: 0.75rem !important;
+    font-size: 0.70rem !important;
   }
   .helper-text-whistle {
     font-size: 14px;
+  }
+  .data-driven-container {
+    padding: 0;
   }
 }

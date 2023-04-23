@@ -55,14 +55,20 @@
     place-items: flex-start;
   }
   .whistle-tech-text li {
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: 400;
   }
   .tech-type-name {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
+  
+
 }
 @media only screen and (max-width: 600px) {
+  .inside-container-class {
+    margin-top: 5rem;
+  }
   .tech-type-name {
     font-size: 1.25rem;
   }
@@ -75,11 +81,26 @@
     font-size: 1rem;
   }
   .whistle-tech-text {
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     margin-top: 1rem;
   }
   .whatsinit-heading {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .inside-container-class {
+    width: 100%;
+  }
+  .tech-type-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #111111;
+  }
+  .whistle-tech-text li {
+    font-size: 12px;
+    width: max-content;
+    padding: 0;
   }
 }

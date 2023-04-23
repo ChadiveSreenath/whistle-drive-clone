@@ -7,7 +7,7 @@
   background-color: #eff1f5;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   padding: 2.5rem;
 }
 .map-container {
@@ -34,6 +34,18 @@
     .service-content-center {
         flex-direction: column;
       }
+      .service-heading-text {
+        font-size: 18px;
+      }
+      .rethinking-text{
+        font-size: 2.5rem;
+      }
+      .service-delivery-main div p{
+        font-size: 1.5rem;
+      }
+      .service-delivery-main div span {
+        font-size: 20px;
+      }
 }
 @media only screen and (max-width: 640px) {
   .service-content-center {
@@ -57,7 +69,7 @@
     width: 90%;
   }
   .service-delivery-main div p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .service-delivery-main div span {
     font-size: 12px;

@@ -5,7 +5,7 @@ import TUV from "../../Assets/Images/TUV.png"
 import { FaFacebookF } from 'react-icons/fa'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { GrLinkedinOption } from "react-icons/gr"
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 
@@ -50,7 +50,14 @@ const Footer = () => {
             <span className='content-main'>Company</span>
             <p>About Us</p>
             <p>Blog</p>
-            <p>Contact Us</p>
+            <p
+              style={{ cursor: 'pointer' }}
+              onClick={() => {
+                history('./')
+                window.scrollTo(0, 0);
+              }}>
+              Contact Us
+            </p>
             <p>News Room</p>
           </div>
         </div>
@@ -76,9 +83,15 @@ const Footer = () => {
           </div>
           <div className="social-media">
             <span className='newsletter-ad'>Social Media</span>
-            <GrLinkedinOption />
-            <FaFacebookF />
-            <AiOutlineTwitter />
+            <Link to='https://www.linkedin.com/company/whistledrive/' style={{ color: 'inherit' }}>
+              <GrLinkedinOption />
+            </Link>
+            <Link to='facebook.com/whistledrive/' style={{ color: 'inherit' }} >
+              <FaFacebookF />
+            </Link>
+            <Link to='https://twitter.com/WhistleDrive/' style={{ color: 'inherit' }} >
+              <AiOutlineTwitter />
+            </Link>
           </div>
         </div>
       </footer>

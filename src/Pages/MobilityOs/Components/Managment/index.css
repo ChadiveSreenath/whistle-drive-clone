@@ -57,19 +57,28 @@
   }
 }
 @media only screen and (max-width: 915px) {
+  .employee-os-transportation {
+    font-size: 1.75rem;
+  }
   .employee-transporation {
     flex-direction: column;
     gap: 2rem;
   }
+  .automating-text {
+    font-size: 22px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .automating-text {
-    font-size: 0.75rem;
+    font-size: 16px;
   }
   .complete-platform {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   .employee-os-transportation {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .managment-platform-cont {
+    margin-top: 8rem;
   }
 }

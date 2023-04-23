@@ -32,7 +32,7 @@
 .mobility-text {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1rem;
   padding: 0 1rem;
 }
 .mobility-text p {
@@ -46,24 +46,38 @@
     gap: 1rem;
   }
   .mobility-text {
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .logistics-image {
-    width: 60px;
-    height: 120px;
-  }
-  .mobility-text {
-    font-size: 12px !important;
+    font-size: 18px;
   }
   .mobility-text span {
-    font-size: 12px !important;
+    font-size: 22px !important;
+  }
+  .mobility-text p{
+    width: 84%;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  .mobility-text {
+    font-size: 14px !important;
+  }
+  .mobility-text span {
+    font-size: 16px !important;
   }
   .mobility-text div span {
-    font-size: 12px !important;
+    font-size: 16px !important;
   }
   .tech-mobility{
     width: 90%;
+  }
+  .enterprise-logistics{
+    width: 100%;
+  }
+  .mobility-transportation{
+    width: 90%;
+    align-self: flex-end;
+  }
+  .logistics-image{
+    height: 100%;
+    width: 100%;
   }
 }

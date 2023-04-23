@@ -43,4 +43,15 @@
   .electric-mobility-main span {
     font-size: .75rem;
   }
+  .electric-driven-container {
+    padding: 2.5rem 0;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .electric-text-para {
+    font-size: 1.1rem;
+  }
+  .electric-mobility-main span {
+    font-size: 1.25rem;
+  }
 }

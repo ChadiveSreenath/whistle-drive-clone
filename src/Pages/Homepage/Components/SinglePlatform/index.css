@@ -60,12 +60,22 @@
     flex-direction: column;
   }
   .text-list-single li div span:first-child {
-    font-size: 16px;
+    font-size: 22px;
+  }
+  .intracity-logistics p{
+    font-size: 1.25rem;
+  }
+  .intracity-heading{
+    font-size: 1.75rem;
+  }
+  .text-list-single li div span:last-child {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 450px) {
   .single-platform-container {
     flex-direction: column;
+    width: 90%;
   }
   .fully-managed {
     padding: 4rem 1rem;

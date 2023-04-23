@@ -15,6 +15,7 @@
   height: 100%;
   vertical-align: middle;
 }
+
 @media only screen and (max-width: 1250px) {
   .ground-operations-main {
     width: 90%;
@@ -22,14 +23,15 @@
   .safety-security h3 {
     font-size: 2.25rem;
   }
-  .saftey-inside-radio-text {
-    font-size: 1rem;
+  .radio-saftey-container label {
+    font-size: 1.5rem;
   }
 }
 @media only screen and (max-width: 920px) {
   .ground-operations-main {
     flex-direction: column;
   }
+  
 }
 @media only screen and (max-width: 600px) {
   .safety-security {
@@ -45,6 +47,7 @@
   }
 }
 @media only screen and (max-width: 410px) {
+
   .safety-security h3 {
     font-size: 1.25rem;
   }
@@ -54,7 +57,7 @@
   }
   .saftey-inside-radio-text {
     padding: 1rem;
-    font-size: 14px;
+    font-size: 16px;
   }
   .radio-saftey-container input {
     width: 18px;

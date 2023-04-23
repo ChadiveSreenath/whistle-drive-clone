@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0 0 0;
-  margin-top: 7rem;
+  padding: 2rem 0 0 0;
+  margin-top: 5rem;
 }
 .contact-us-png {
   width: 80%;
@@ -41,6 +41,10 @@
     color: #063767;
     font-weight: 600;
   }
+  .contact-us-cont{
+    margin-top: 0;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 700px) {
   .logistics-commute {
@@ -59,6 +63,10 @@
   .commute-heading {
     font-size: 1rem !important;
   }
+  .contact-us-cont{
+    margin-top: 0;
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 370px) {
   .commute-heading {
@@ -66,5 +74,9 @@
   }
   .logistics-commute {
     padding: 0rem !important;
+  }
+  .contact-us-cont{
+    padding: 0;
+    margin-top: 0;
   }
 }
