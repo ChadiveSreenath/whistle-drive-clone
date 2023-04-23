@@ -8,7 +8,7 @@
 .footer-main {
   display: flex;
   width: 80%;
-  padding-top: 5rem;
+  padding-top: 2rem;
   margin: auto;
   flex-wrap: wrap;
   margin-top: 3rem;
@@ -81,6 +81,9 @@
   display: flex;
   justify-content: space-between;
 }
+.copyright{
+  margin-top: 3rem;
+}
 .policy-section {
   display: flex;
   width: 100%;
@@ -88,6 +91,6 @@
   font-size: 12px;
   margin-top: 16px;
   color: #a1a1a1;
-  padding: 1rem 2rem;
+  padding: 2rem;
   flex-wrap: wrap;
 }

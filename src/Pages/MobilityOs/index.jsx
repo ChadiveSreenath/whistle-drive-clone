@@ -6,7 +6,7 @@ import EmployePriority from './Components/Priority'
 import WhatsInIt from './Components/WhatsInIt'
 import EnsuringSafety from './Components/EnsuringSafety'
 import TransportOperations from './Components/TransportOperations'
-import GroundOps from './Components/GroundOps'
+import GroundOps from './Components/Security'
 
 const MobilityOs = () => {
     return (

@@ -12,6 +12,9 @@ const Navbar = () => {
     setState(prev => !prev)
   }
 
+  const [showText, setShowText] = useState(false);
+  console.log(showText)
+
   const history = useNavigate()
 
   return (
@@ -24,15 +27,39 @@ const Navbar = () => {
           }} />
         </div>
         <div className='nav-content'>
-          <p>Enterprise Logistics</p>
-          <p>Employee Transportation</p>
-          <p>WhistleElectric</p>
-          <p>Company</p>
+
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav' >Enterprise Logistics</p>
+            <div className='hover-div'> OS for Logistics</div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav' onClick={() => {
+              history('./mobilityos')
+              window.scrollTo(0, 0);
+            }}>Employee Transportation</p>
+            <div className='hover-div'> OS for Mobility</div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav'>WhistleElectric</p>
+            <div className='hover-div' style={{ backgroundColor: 'white' }}>  </div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav' onClick={() => setShowText(prev => !prev)} >Company</p>
+            <div className='hover-div' style={{ backgroundColor: 'white' }}>
+            </div>
+          </div>
+          {/* {
+            showText && <div className='company-dropdown-menu'>
+              <p>About Us</p>
+              <p>Blog</p>
+              <p>Newsroom</p>
+            </div>
+          } */}
           <Button
             variant="contained"
             disableElevation
             style={{
-              width: "180px", height: '50px', backgroundColor: '#0096d5', marginTop: '5px'
+              width: "180px", height: '50px', backgroundColor: 'rgb(0, 150, 213)', marginTop: '5px',
             }}
             onClick={() => {
               history('./contactus')
@@ -52,15 +79,42 @@ const Navbar = () => {
       {
         state &&
         <div className='toogle-container'>
-          <p>Enterprise Logistics</p>
-          <p>OS for Logistics</p>
+          <div>
+            <p>Enterprise Logistics</p>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav'>OS for Logistics</p>
+            <div className='hover-div' style={{ backgroundColor: 'white', padding: '0' }}>  </div>
+          </div>
           <p>Employee Transportation</p>
-          <p>OS for Mobility</p>
-          <p>WhistleElectric</p>
-          <p>Company </p>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav'
+              onClick={() => {
+                history('./mobilityos')
+                window.scrollTo(0, 0);
+                setState(prev => !prev)
+              }}
+            >
+              OS for Mobility
+            </p>
+            <div className='hover-div' style={{ backgroundColor: 'white', padding: '0' }}>  </div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav'>WhistleElectric</p>
+            <div className='hover-div' style={{ backgroundColor: 'white', padding: '0' }}>  </div>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <p className='para-nav'>Company</p>
+            <div className='hover-div' style={{ backgroundColor: 'white', padding: '0' }}>  </div>
+          </div>
           <Button
             variant="contained"
             disableElevation
+            onClick={() => {
+              history('./contactus')
+              window.scrollTo(0, 0);
+              setState(prev => !prev)
+            }}
             style={{
               width: "100%", height: '40px',
             }}>Contact Us</Button>

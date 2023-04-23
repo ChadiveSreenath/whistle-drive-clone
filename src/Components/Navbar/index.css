@@ -14,7 +14,7 @@
   width: 80%;
   padding: 1.5rem 0rem;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 8rem;
 }
 .nav-content {
   display: flex;
@@ -36,7 +36,6 @@
   gap: 1rem;
   align-self: center;
   width: 80%;
-
 }
 .toogle-container p {
   font-weight: 600;
@@ -46,15 +45,42 @@
 .toogle-container {
   display: none;
 }
-@media only screen and (max-width: 1100px) {
+.hover-div {
+  display: none;
+  padding: 1.5rem;
+  color: #333333;
+  background-color: #f8f9fa;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  border-top: 0.25rem solid rgb(0, 150, 213);
+}
+.para-nav:hover + .hover-div {
+  display: block;
+}
+/* .company-dropdown-menu{
+  display: none;
+  font-size: 14px;
+  background-color: #f6f7fb;
+  padding: 2rem 4rem;
+  position: absolute;
+  margin-top: 66px;
+  margin-left: 36rem;
+} */
+@media only screen and (max-width: 1210px) {
   .nav-container {
     display: flex;
-    width: 80%;
+    width: 90%;
     padding: 1.5rem 0rem;
-    gap: 6rem;
+    gap: 2rem;
+  }
+  .nav-content p {
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 990px) {
+  .nav-container {
+    width: 80%;
+  }
   .nav-content {
     display: none;
   }
