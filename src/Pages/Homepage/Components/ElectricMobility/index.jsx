@@ -40,7 +40,7 @@ const ElectricMobility = () => {
                         onClick={() => {
                             history('./mobilityos')
                             window.scrollTo(0, 0);
-                        }}
+                          }}
                     >
                         Whistle Electric
                     </Button>

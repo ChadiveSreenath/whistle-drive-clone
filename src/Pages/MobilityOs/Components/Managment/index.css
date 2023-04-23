@@ -1,0 +1,75 @@
+.main-root-class {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.managment-platform-cont {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+.employee-transporation {
+  display: flex;
+}
+.whistle-os-image {
+  flex: 1;
+}
+.managment-platform-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.employee-os-transportation {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  gap: 10px;
+}
+.complete-platform {
+  color: #063767;
+  font-size: 3.25rem;
+  font-weight: 600;
+}
+.automating-text {
+  font-size: 1.25rem;
+}
+.clients {
+  margin-top: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .automating-text {
+    font-size: 1rem;
+  }
+  .complete-platform {
+    font-size: 2.25rem;
+  }
+  .employee-os-transportation {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 915px) {
+  .employee-transporation {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .automating-text {
+    font-size: 0.75rem;
+  }
+  .complete-platform {
+    font-size: 1.25rem;
+  }
+  .employee-os-transportation {
+    font-size: 14px;
+  }
+}

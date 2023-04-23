@@ -21,7 +21,7 @@ const HomepageContact = () => {
                         width: "12rem", fontSize: '1rem', height: '4rem', backgroundColor: '#0096d5', color: 'white', marginTop: '2rem'
                     }}
                     onClick={() => {
-                        history('./contactus')
+                        history('/contactus')
                         window.scrollTo(0, 0);
                     }}
                 >

@@ -1,0 +1,94 @@
+.transport-operations-main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.conditional-radio-image {
+  flex: 1;
+  background-color: rgb(248, 249, 251);
+  padding: 5rem 2rem 5rem 0;
+}
+.transport-operations-text-cont {
+  flex: 1;
+  background-color: #eff1ef;
+}
+.transport-operations-text-cont h3 {
+  font-size: 2.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  color: #063767;
+}
+.radio-transportation-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem 2rem 0rem;
+}
+.radio-transportation-container label {
+  font-size: 1.25rem;
+  padding: 1rem;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+}
+.radio-transportation-container input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 1.5rem;
+}
+.transportation-radio-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: start;
+  padding: 1rem 2.75rem;
+}
+@media only screen and (max-width: 1250px) {
+  .transport-operations-main {
+    width: 90%;
+  }
+  .transport-operations-text-cont h3 {
+    font-size: 2.25rem;
+  }
+  .transportation-radio-text {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .transport-operations-main {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .transport-operations-text-cont {
+    padding: 1rem;
+  }
+  .transport-operations-text-cont h3 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .radio-transportation-container label {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .transport-operations-text-cont h3 {
+    font-size: 1.25rem;
+  }
+  .radio-transportation-container label {
+    font-size: 12px;
+    text-align: start;
+  }
+  .transportation-radio-text {
+    padding: 1rem;
+    font-size: 14px;
+  }
+  .radio-transportation-container input {
+    width: 18px;
+    height: 18px;
+  }
+  .transport-operations-text-cont {
+    padding: 0rem;
+  }
+}

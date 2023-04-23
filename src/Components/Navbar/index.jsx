@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className='navbar-main'>
       <div className='nav-container'>
         <div>
-          <img src={wdLogo} alt="Company Logo" height='43px' width='180px' style={{ cursor: 'pointer' }} onClick={() => {
+          <img src={wdLogo} alt="Company Logo" height='50px' width='200px' style={{ cursor: 'pointer' }} onClick={() => {
             history('./')
             window.scrollTo(0, 0);
           }} />
@@ -32,7 +32,7 @@ const Navbar = () => {
             variant="contained"
             disableElevation
             style={{
-              width: "180px", height: '40px', backgroundColor: '#0096d5', marginTop: '10px'
+              width: "180px", height: '50px', backgroundColor: '#0096d5', marginTop: '5px'
             }}
             onClick={() => {
               history('./contactus')
