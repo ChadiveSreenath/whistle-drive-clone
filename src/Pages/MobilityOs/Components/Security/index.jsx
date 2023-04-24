@@ -68,13 +68,13 @@ const GroundOps = () => {
         </div>
         <div className="conditional-ground-radio-image">
           {
-            selectedOption === 'option1' && <img src={TripModifications} />
+            selectedOption === 'option1' && <img src={TripModifications} alt='' />
           }
           {
-            selectedOption === 'option2' && <img src={TripModifications} />
+            selectedOption === 'option2' && <img src={TripModifications}  alt=''/>
           }
           {
-            selectedOption === 'option3' && <img src={DriverDocument} />
+            selectedOption === 'option3' && <img src={DriverDocument} alt='' />
           }
         </div>
 

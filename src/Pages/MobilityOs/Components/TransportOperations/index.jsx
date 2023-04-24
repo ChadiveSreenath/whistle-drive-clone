@@ -17,13 +17,13 @@ const TransportOperations = () => {
             <div className="transport-operations-main">
                 <div className="conditional-radio-image">
                     {
-                        selectedOption === 'option1' && <img src={LiveTracking} height='100%' width='100%' />
+                        selectedOption === 'option1' && <img src={LiveTracking} height='100%' width='100%' alt='' />
                     }
                     {
-                        selectedOption === 'option2' && <img src={CustomisedReports} height='100%' width='100%' />
+                        selectedOption === 'option2' && <img src={CustomisedReports} height='100%' width='100%' alt='' />
                     }
                     {
-                        selectedOption === 'option3' && <img src={Compliance} height='100%' width='100%' />
+                        selectedOption === 'option3' && <img src={Compliance} height='100%' width='100%' alt='' />
                     }
                 </div>
                 <div className="transport-operations-text-cont">

@@ -41,11 +41,12 @@ const Navbar = () => {
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <p className='para-nav'>WhistleElectric</p>
-            <div className='hover-div' style={{ backgroundColor: 'white' }}>  </div>
+            <div className='hover-div' > OS for Electric </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <p className='para-nav' onClick={() => setShowText(prev => !prev)} >Company</p>
-            <div className='hover-div' style={{ backgroundColor: 'white' }}>
+            <div className='hover-div' >
+              OS for Company
             </div>
           </div>
           {/* {

@@ -47,7 +47,8 @@
 }
 .hover-div {
   display: none;
-  padding: 1.5rem;
+  padding: 1rem 0.25rem;
+  text-align: center;
   color: #333333;
   background-color: #f8f9fa;
   font-size: 1rem;
