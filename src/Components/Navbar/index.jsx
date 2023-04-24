@@ -40,13 +40,16 @@ const Navbar = () => {
             <div className='hover-div'> OS for Mobility</div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <p className='para-nav'>WhistleElectric</p>
+            <p className='para-nav' onClick={() => {
+              history('./mobilityos')
+              window.scrollTo(0, 0);
+            }}>WhistleElectric</p>
             <div className='hover-div' > OS for Electric </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <p className='para-nav' onClick={() => setShowText(prev => !prev)} >Company</p>
             <div className='hover-div' >
-              OS for Company
+              Company
             </div>
           </div>
           {/* {
